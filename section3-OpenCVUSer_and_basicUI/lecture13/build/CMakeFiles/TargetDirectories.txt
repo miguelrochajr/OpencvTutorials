@@ -1,3 +1,3 @@
-/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/build/CMakeFiles/rebuild_cache.dir
-/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/build/CMakeFiles/edit_cache.dir
-/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/build/CMakeFiles/DisplayImageEXEC.dir
+/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/build/CMakeFiles/rebuild_cache.dir
+/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/build/CMakeFiles/edit_cache.dir
+/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/build/CMakeFiles/DisplayImageEXEC.dir

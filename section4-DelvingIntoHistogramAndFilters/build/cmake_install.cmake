@@ -1,4 +1,4 @@
-# Install script for directory: /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters
+# Install script for directory: /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

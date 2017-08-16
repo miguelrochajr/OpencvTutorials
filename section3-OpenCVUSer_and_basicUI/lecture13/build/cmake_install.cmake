@@ -1,4 +1,4 @@
-# Install script for directory: /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13
+# Install script for directory: /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

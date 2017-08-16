@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.8.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13
+CMAKE_SOURCE_DIR = /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/build
+CMAKE_BINARY_DIR = /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DisplayImageEXEC.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/DisplayImageEXEC.dir/flags.make
 
 CMakeFiles/DisplayImageEXEC.dir/main.cpp.o: CMakeFiles/DisplayImageEXEC.dir/flags.make
 CMakeFiles/DisplayImageEXEC.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DisplayImageEXEC.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DisplayImageEXEC.dir/main.cpp.o -c /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DisplayImageEXEC.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DisplayImageEXEC.dir/main.cpp.o -c /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/main.cpp
 
 CMakeFiles/DisplayImageEXEC.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayImageEXEC.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/main.cpp > CMakeFiles/DisplayImageEXEC.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/main.cpp > CMakeFiles/DisplayImageEXEC.dir/main.cpp.i
 
 CMakeFiles/DisplayImageEXEC.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayImageEXEC.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/main.cpp -o CMakeFiles/DisplayImageEXEC.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/main.cpp -o CMakeFiles/DisplayImageEXEC.dir/main.cpp.s
 
 CMakeFiles/DisplayImageEXEC.dir/main.cpp.o.requires:
 
@@ -132,7 +132,7 @@ DisplayImageEXEC: /usr/local/lib/libopencv_imgcodecs.3.2.0.dylib
 DisplayImageEXEC: /usr/local/lib/libopencv_imgproc.3.2.0.dylib
 DisplayImageEXEC: /usr/local/lib/libopencv_core.3.2.0.dylib
 DisplayImageEXEC: CMakeFiles/DisplayImageEXEC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DisplayImageEXEC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DisplayImageEXEC"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DisplayImageEXEC.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -149,6 +149,6 @@ CMakeFiles/DisplayImageEXEC.dir/clean:
 .PHONY : CMakeFiles/DisplayImageEXEC.dir/clean
 
 CMakeFiles/DisplayImageEXEC.dir/depend:
-	cd /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13 /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13 /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/build /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/build /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/build/CMakeFiles/DisplayImageEXEC.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13 /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13 /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/build /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/build /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/build/CMakeFiles/DisplayImageEXEC.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DisplayImageEXEC.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.8.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters
+CMAKE_SOURCE_DIR = /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/build
+CMAKE_BINARY_DIR = /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DisplayImage.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/DisplayImage.dir/flags.make
 
 CMakeFiles/DisplayImage.dir/main.cpp.o: CMakeFiles/DisplayImage.dir/flags.make
 CMakeFiles/DisplayImage.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DisplayImage.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DisplayImage.dir/main.cpp.o -c /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DisplayImage.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DisplayImage.dir/main.cpp.o -c /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters/main.cpp
 
 CMakeFiles/DisplayImage.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayImage.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/main.cpp > CMakeFiles/DisplayImage.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters/main.cpp > CMakeFiles/DisplayImage.dir/main.cpp.i
 
 CMakeFiles/DisplayImage.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayImage.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/main.cpp -o CMakeFiles/DisplayImage.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters/main.cpp -o CMakeFiles/DisplayImage.dir/main.cpp.s
 
 CMakeFiles/DisplayImage.dir/main.cpp.o.requires:
 
@@ -97,8 +97,11 @@ DisplayImage: /usr/local/lib/libopencv_aruco.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_bgsegm.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_bioinspired.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_ccalib.3.2.0.dylib
+DisplayImage: /usr/local/lib/libopencv_contrib_world.3.2.0.dylib
+DisplayImage: /usr/local/lib/libopencv_cvv.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_dpm.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_fuzzy.3.2.0.dylib
+DisplayImage: /usr/local/lib/libopencv_hdf.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_line_descriptor.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_optflow.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_reg.3.2.0.dylib
@@ -112,6 +115,7 @@ DisplayImage: /usr/local/lib/libopencv_ximgproc.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_xobjdetect.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_xphoto.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_shape.3.2.0.dylib
+DisplayImage: /usr/local/lib/libopencv_viz.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_phase_unwrapping.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_rgbd.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_calib3d.3.2.0.dylib
@@ -132,7 +136,7 @@ DisplayImage: /usr/local/lib/libopencv_imgcodecs.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_imgproc.3.2.0.dylib
 DisplayImage: /usr/local/lib/libopencv_core.3.2.0.dylib
 DisplayImage: CMakeFiles/DisplayImage.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DisplayImage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DisplayImage"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DisplayImage.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -149,6 +153,6 @@ CMakeFiles/DisplayImage.dir/clean:
 .PHONY : CMakeFiles/DisplayImage.dir/clean
 
 CMakeFiles/DisplayImage.dir/depend:
-	cd /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/build /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/build /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/build/CMakeFiles/DisplayImage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters/build /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters/build /Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section4-DelvingIntoHistogramAndFilters/build/CMakeFiles/DisplayImage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DisplayImage.dir/depend
 

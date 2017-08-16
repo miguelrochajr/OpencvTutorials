@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/main.cpp
+/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/main.cpp
 iostream
 -
 string
@@ -14,9 +14,9 @@ string
 sstream
 -
 opencv2/core.hpp
-/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/opencv2/core.hpp
+/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/opencv2/core.hpp
 opencv2/highgui.hpp
-/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section3-OpenCVUSer_and_basicUI/lecture13/opencv2/highgui.hpp
+/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/OpencvTutorials/section3-OpenCVUSer_and_basicUI/lecture13/opencv2/highgui.hpp
 
 /usr/local/include/boost/assert.hpp
 boost/config.hpp

@@ -224,6 +224,11 @@ CMakeFiles/DisplayImage.dir/main.cpp.o: /usr/local/include/opencv2/videostab/out
 CMakeFiles/DisplayImage.dir/main.cpp.o: /usr/local/include/opencv2/videostab/ring_buffer.hpp
 CMakeFiles/DisplayImage.dir/main.cpp.o: /usr/local/include/opencv2/videostab/stabilizer.hpp
 CMakeFiles/DisplayImage.dir/main.cpp.o: /usr/local/include/opencv2/videostab/wobble_suppression.hpp
+CMakeFiles/DisplayImage.dir/main.cpp.o: /usr/local/include/opencv2/viz.hpp
+CMakeFiles/DisplayImage.dir/main.cpp.o: /usr/local/include/opencv2/viz/types.hpp
+CMakeFiles/DisplayImage.dir/main.cpp.o: /usr/local/include/opencv2/viz/viz3d.hpp
+CMakeFiles/DisplayImage.dir/main.cpp.o: /usr/local/include/opencv2/viz/vizcore.hpp
+CMakeFiles/DisplayImage.dir/main.cpp.o: /usr/local/include/opencv2/viz/widgets.hpp
 CMakeFiles/DisplayImage.dir/main.cpp.o: /usr/local/include/opencv2/xfeatures2d.hpp
 CMakeFiles/DisplayImage.dir/main.cpp.o: /usr/local/include/opencv2/xfeatures2d/cuda.hpp
 CMakeFiles/DisplayImage.dir/main.cpp.o: /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
