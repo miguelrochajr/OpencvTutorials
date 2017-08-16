@@ -1,0 +1,3 @@
+/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/build/CMakeFiles/rebuild_cache.dir
+/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/build/CMakeFiles/edit_cache.dir
+/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section4-DelvingIntoHistogramAndFilters/build/CMakeFiles/DisplayImage.dir

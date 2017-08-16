@@ -1,0 +1,3 @@
+/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section2_BasicsOfOpenCV/lecture9/build/CMakeFiles/rebuild_cache.dir
+/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section2_BasicsOfOpenCV/lecture9/build/CMakeFiles/edit_cache.dir
+/Users/miguelsilvadarochajunior/Google_Drive/Estudos/Udemy/LearnOpenCV/section2_BasicsOfOpenCV/lecture9/build/CMakeFiles/DisplayImageEXEC.dir
